@@ -1,7 +1,7 @@
 <?php
 
 include 'config.php'; // mail server config
-require_once 'lib/ImapMailbox.php'; // https://github.com/bitifet/imapMailBox?
+require_once 'lib/ImapMailbox.php'; // License: GNU-GPL https://github.com/barbushin/php-imap
 
 define('ICS_FILENAME', 'calendar.ics');
 define('ICS_TEMPLATE_FILENAME', 'calendar.template.txt');
